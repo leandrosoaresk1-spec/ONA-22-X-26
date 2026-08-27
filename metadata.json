@@ -1,0 +1,6 @@
+{
+  "name": "Evolução ONA Gestão de Pessoas 2022-2026",
+  "description": "Apresentação executiva e interativa sobre a evolução estrutural, conceitual e estratégica dos requisitos da ONA para Gestão de Pessoas (2022 × 2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
