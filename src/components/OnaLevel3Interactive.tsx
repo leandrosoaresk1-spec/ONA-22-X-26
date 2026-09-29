@@ -151,7 +151,7 @@ export const OnaLevel3Interactive: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#E2E8F0] pb-2.5">
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-[#0F766E]">
-            06 • Excelência & Desfechos
+            08 • Excelência & Desfechos
           </span>
           <h2 className="text-2xl sm:text-3xl font-black text-[#0F766E] mt-0.5 tracking-tight">
             Requisitos ONA — Nível 3

@@ -39,9 +39,11 @@ import { OnaLevel3Interactive } from './OnaLevel3Interactive';
 import { OnaSpreadsheetSlide } from './OnaSpreadsheetSlide';
 import { GpExpectationsSlide } from './GpExpectationsSlide';
 import { ThankYouSlide } from './ThankYouSlide';
+import { AuditoriaHslSlide } from './AuditoriaHslSlide';
+import { MudancasGestaoPessoasSlide } from './MudancasGestaoPessoasSlide';
 
 // ----------------------------------------------------
-// DYNAMIC COMPONENT: SLIDE 03 - REESTRUTURAÇÃO CONCEITUAL
+// DYNAMIC COMPONENT: SLIDE 05 - REESTRUTURAÇÃO CONCEITUAL
 // ----------------------------------------------------
 const LevelDistributionTimelineInteractive: React.FC = () => {
   const [activeTab, setActiveTab] = React.useState<'all' | 'n1' | 'n2' | 'n3'>('all');
@@ -52,7 +54,7 @@ const LevelDistributionTimelineInteractive: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 border-b border-[#E2E8F0] pb-3">
         <div>
           <span className="text-xs font-bold uppercase tracking-wider text-[#FF3200]">
-            03 • Arquitetura & Evolução Normativa
+            05 • Arquitetura & Evolução Normativa
           </span>
           <h2 className="text-2xl sm:text-3xl font-black text-[#FF3200] mt-0.5 tracking-tight">
             Reestruturação Conceitual
@@ -427,14 +429,26 @@ export const SlideRenderer: React.FC<SlideRendererProps> = ({
         );
 
       // ----------------------------------------------------
-      // SLIDE 02: REFORMULAÇÃO ESTRUTURAL
+      // SLIDE 02: AUDITORIAS EXTERNAS HSL 2025 (ISO 9001 & SELO UNIMED)
+      // ----------------------------------------------------
+      case 'auditoria_hsl_2025':
+        return <AuditoriaHslSlide />;
+
+      // ----------------------------------------------------
+      // SLIDE 03: O QUE MUDOU NA GESTÃO DE PESSOAS?
+      // ----------------------------------------------------
+      case 'mudancas_gestao_pessoas':
+        return <MudancasGestaoPessoasSlide />;
+
+      // ----------------------------------------------------
+      // SLIDE 04: REFORMULAÇÃO ESTRUTURAL
       // ----------------------------------------------------
       case 'reformulacao_estrutural':
         return (
           <div className="w-full max-w-5xl mx-auto flex flex-col justify-between h-full py-4 text-left">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-[#FF3200]">
-                02 • Reformulação Estrutural
+                04 • Reformulação Estrutural
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-[#FF3200] mt-1 tracking-tight">
                 Reformulação Estrutural
@@ -591,13 +605,13 @@ export const SlideRenderer: React.FC<SlideRendererProps> = ({
               <span>
                 <strong className="text-[#16324F]">Destaque Estrutural:</strong> A ONA 2026 redistribui a complexidade de Gestão de Pessoas até o Nível 3 e estende os critérios CORE.
               </span>
-              <span className="text-[#FF3200] font-bold font-mono text-xs">Slide 02 de {totalSlides}</span>
+              <span className="text-[#FF3200] font-bold font-mono text-xs">Slide 04 de {totalSlides}</span>
             </div>
           </div>
         );
 
       // ----------------------------------------------------
-      // SLIDE 03: REDISTRIBUIÇÃO DOS NÍVEIS & LINHA DO TEMPO
+      // SLIDE 05: REDISTRIBUIÇÃO DOS NÍVEIS & LINHA DO TEMPO
       // ----------------------------------------------------
       case 'level_distribution_timeline':
       case 'level_distribution':

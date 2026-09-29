@@ -116,6 +116,49 @@ export const SLIDES: SlideData[] = [
   },
   {
     id: 2,
+    slug: 'auditorias-externas-hsl-2026',
+    title: 'AUDITORIAS EXTERNAS 2026 — HSL',
+    subtitle: 'Dois pontos de atenção. Um objetivo: corrigir, acompanhar e evoluir.',
+    category: 'action',
+    themeTag: 'Diagnóstico & Auditorias 2026',
+    oneIdeaSummary: 'Dois alertas críticos de qualidade (falha de eficácia de treinamento/EAD e 14% de evolução de PDIs) com RMs recusadas que impactam diretamente a ONA 2026.',
+    renderType: 'auditoria_hsl_2025',
+    speakerNote: {
+      objective: 'Apresentar com clareza o diagnóstico real das auditorias externas de 2026 no Hospital São Lucas (ISO 9001 e Selo Unimed), ressaltando os pontos de atenção imediata e a conexão com a nova norma ONA 2026.',
+      talkingPoints: [
+        'Contexto HSL 2026: Duas auditorias externas apontaram fragilidades centrais exatamente nos pilares que a ONA 2026 mais exige.',
+        'Auditoria ISO 9001 (10774): Processo de Gerir Capacitação e Desenvolvimento de Pessoas recebeu NC Menor por ausência de metodologia de avaliação de necessidade e eficácia em treinamentos EAD e integração.',
+        'Alerta Crítico ISO: RM foi recusada pela Qualidade. É vital identificar o erro e a causa-raiz para NÃO virar uma NC Maior.',
+        'Auditoria Selo Unimed-BH (11257): Avaliação de PDIs com apenas 14% de conformidade (apenas 31 PDIs evoluídos de 225 gerados para 484 colaboradores). RM também recusada pela Qualidade.',
+        'Conexão Direta com ONA 2026: N1 exige Integração efetiva, N2 exige AVD/PDI contínuo (CORE) e N3 exige mensuração de eficácia e impacto dos treinamentos.',
+      ],
+      executiveTakeaway: 'Corrigir a causa-raiz dessas duas RMs recusadas não é apenas atender à ISO e ao Selo Unimed: é o alicerce obrigatório para que a Gestão de Pessoas conquiste a Acreditação ONA 2026.',
+      recommendedTime: '2.5 min',
+    },
+  },
+  {
+    id: 3,
+    slug: 'selo-excelencia-unimed-mudancas',
+    title: 'SELO DE EXCELÊNCIA UNIMED — O QUE MUDOU NA GESTÃO DE PESSOAS?',
+    subtitle: 'Mais foco no desenvolvimento, na efetividade e na melhoria contínua.',
+    category: 'structure',
+    themeTag: 'Selo de Excelência Unimed',
+    oneIdeaSummary: '2 novos requisitos, exclusão do requisito 2.2, 5 direcionadores centrais em Gestão de Pessoas (1.1, 1.2, 2.7, 2.8 e 2.9) e forte ênfase na eficácia assistencial e na ponta.',
+    renderType: 'mudancas_gestao_pessoas',
+    speakerNote: {
+      objective: 'Apresentar com síntese executiva e objetiva as atualizações fundamentais de Gestão de Pessoas para a ONA/Excelência Assistencial.',
+      talkingPoints: [
+        'Mensagem-chave: Mais foco no desenvolvimento, na efetividade e na melhoria contínua.',
+        'O Que Mudou: Inclusão de 2 novos requisitos e retirada do requisito 2.2 da norma (atração, admissão e desligamento considerando competências).',
+        '5 Requisitos Centrais de GP: 1.1 (Diversidade e vagas afirmativas), 1.2 (Saúde Mental), 2.7 (Desenvolvimento a partir de falhas no processo), 2.8 (Treinamentos periódicos, LNT, AVD) e 2.9 (Higienização das mãos).',
+        'O Que Foi Enfatizado: LNT e AVD, adesão e eficácia nos treinamentos assistenciais, gestão ativa de faltosos, melhoria contínua e escuta direta do colaborador da ponta para checar efetividade.',
+      ],
+      executiveTakeaway: 'Entendemos o que mudou, sabemos onde está o foco e direcionamos a energia para o que precisa ser fortalecido na ponta assistencial.',
+      recommendedTime: '2.0 min',
+    },
+  },
+  {
+    id: 4,
     slug: 'reformulacao-estrutural',
     title: 'REFORMULAÇÃO ESTRUTURAL',
     subtitle: 'Comparativo Geral de Requisitos e Critérios CORE | 2022 × 2026',
@@ -137,7 +180,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 3,
+    id: 5,
     slug: 'reestruturacao-conceitual',
     title: 'REESTRUTURAÇÃO CONCEITUAL',
     subtitle: 'Redistribuição dos níveis e a nova jornada de maturidade da ONA 2026',
@@ -158,7 +201,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 4,
+    id: 6,
     slug: 'requisitos-ona-nivel-1',
     title: 'Requisitos ONA — Nível 1',
     subtitle: 'Comparativo 2022 → 2026: o que mudou na base operacional',
@@ -181,7 +224,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 5,
+    id: 7,
     slug: 'reorganizacao-nivel-2',
     title: 'A REORGANIZAÇÃO DO NÍVEL 2',
     subtitle: 'De 9 para 7 requisitos',
@@ -202,7 +245,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 6,
+    id: 8,
     slug: 'nascimento-nivel-3',
     title: 'O NASCIMENTO DO NÍVEL 3',
     subtitle: 'A principal mudança estrutural da ONA 2026',
@@ -223,7 +266,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 7,
+    id: 9,
     slug: 'o-ciclo-da-gestao-de-pessoas-ona-2026',
     title: 'O CICLO DA GESTÃO DE PESSOAS NA ONA 2026',
     subtitle: 'As 7 Etapas Integradas: Do Planejamento ao Reconhecimento e Liderança',
@@ -247,7 +290,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 8,
+    id: 10,
     slug: 'planilha-requisitos-ona-2026',
     title: 'PLANILHA OFICIAL DOS REQUISITOS ONA 2026',
     subtitle: 'Matriz Completa: 33 Requisitos, Orientações e Evidências Sugeridas',
@@ -268,7 +311,7 @@ export const SLIDES: SlideData[] = [
     },
   },
   {
-    id: 9,
+    id: 11,
     slug: 'encerramento-obrigado',
     title: 'OBRIGADO',
     subtitle: 'People Analytics & Acreditação ONA 2026: Dados em Cuidado, Pessoas em Estratégia',

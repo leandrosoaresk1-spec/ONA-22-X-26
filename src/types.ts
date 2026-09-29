@@ -25,7 +25,9 @@ export interface SlideData {
   speakerNote: SpeakerNote;
   renderType: 
     | 'cover'
+    | 'auditoria_hsl_2025'
     | 'reformulacao_estrutural'
+    | 'mudancas_gestao_pessoas'
     | 'question'
     | 'stats_structure'
     | 'level_distribution'

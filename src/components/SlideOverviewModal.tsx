@@ -59,7 +59,7 @@ export const SlideOverviewModal: React.FC<SlideOverviewModalProps> = ({
               </h2>
             </div>
             <p className="text-xs text-[#334155] mt-1">
-              18 slides estruturados em narrativa executiva e storytelling progressivo.
+              {SLIDES.length} slides estruturados em narrativa executiva e storytelling progressivo.
             </p>
           </div>
 

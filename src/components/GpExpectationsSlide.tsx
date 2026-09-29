@@ -99,7 +99,7 @@ export const GpExpectationsSlide: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="text-[11px] font-black uppercase tracking-wider text-[#FF3200] bg-orange-50 px-2.5 py-0.5 rounded-full border border-orange-200 flex items-center gap-1">
               <Sparkles className="w-3.5 h-3.5" />
-              Slide 07 • Subseção 1.4 da ONA 2026
+              Slide 09 • Subseção 1.4 da ONA 2026
             </span>
             <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200">
               Ciclo Contínuo & Integrado
