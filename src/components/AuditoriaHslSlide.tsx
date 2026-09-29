@@ -3,6 +3,7 @@ import {
   AlertCircle,
   FileSearch,
   AlertTriangle,
+  ArrowRight,
   ShieldAlert,
 } from 'lucide-react';
 
@@ -67,7 +68,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                     1. FATO
                   </div>
                   <p className="text-sm font-semibold text-slate-800 mt-0.5 leading-snug">
-                    Falha na avaliação da necessidade de treinamentos e na <span className="text-red-600 font-black bg-red-50 px-1.5 py-0.5 rounded border border-red-200">avaliação de eficácia</span>.
+                    Falha na avaliação da necessidade de treinamentos e na avaliação de eficácia.
                   </p>
                 </div>
               </div>
@@ -82,7 +83,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                     2. EVIDÊNCIA
                   </div>
                   <p className="text-sm font-normal text-slate-700 mt-0.5 leading-relaxed">
-                    Não foi evidenciada metodologia para avaliar a <span className="text-red-600 font-bold">eficácia</span> dos treinamentos EAD, inclusive os de integração.
+                    Não foi evidenciada metodologia para avaliar a eficácia dos treinamentos EAD, inclusive os de integração.
                   </p>
                 </div>
               </div>
@@ -117,7 +118,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                 11257 | Hospital São Lucas | 2026
               </div>
               <div className="inline-block mt-2 px-2.5 py-1 bg-slate-100 text-slate-700 font-bold text-xs rounded-md">
-                Recursos Humanos — <span className="text-red-600 font-black">PDI</span>
+                Recursos Humanos — PDI
               </div>
             </div>
 
@@ -133,7 +134,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                     1. FATO
                   </div>
                   <p className="text-sm font-semibold text-slate-800 mt-0.5 leading-snug">
-                    Falha na avaliação dos <span className="text-red-600 font-black bg-red-50 px-1.5 py-0.5 rounded border border-red-200">PDIs</span>.
+                    Falha na avaliação dos PDIs.
                   </p>
                 </div>
               </div>
@@ -166,7 +167,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                       225
                     </div>
                     <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mt-1.5 leading-tight">
-                      <span className="text-red-600 font-bold">PDIs</span> Gerados
+                      PDIs Gerados
                     </div>
                   </div>
 
@@ -176,7 +177,7 @@ export const AuditoriaHslSlide: React.FC = () => {
                       31
                     </div>
                     <div className="text-[10px] font-bold uppercase tracking-wider text-red-700 mt-1.5 leading-tight">
-                      <span className="text-red-600 font-bold">PDIs</span> Evoluídos
+                      PDIs Evoluídos
                     </div>
                   </div>
 
@@ -208,6 +209,30 @@ export const AuditoriaHslSlide: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Destaque Central / Faixa Inferior */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl px-5 py-3 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-[#16324F]"></span>
+          <span className="text-xs font-black uppercase tracking-wider text-[#16324F]">
+            PONTO DE ATENÇÃO DA QUALIDADE
+          </span>
+        </div>
+
+        <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-700 flex-wrap justify-center">
+          <span className="text-red-700 bg-red-50 px-2 py-0.5 rounded border border-red-200">
+            RM recusada
+          </span>
+          <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
+          <span className="text-slate-800">identificar causa-raiz</span>
+          <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
+          <span className="text-slate-800">corrigir</span>
+          <ArrowRight className="w-3.5 h-3.5 text-slate-400" />
+          <span className="text-[#16324F] font-black bg-blue-50 px-2 py-0.5 rounded border border-blue-200">
+            retornar
+          </span>
         </div>
       </div>
     </div>
